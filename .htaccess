@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^nischal\.me$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.nischal\.me$
+RewriteRule ^/?$ "http\:\/\/nischal\.me\/home\.html" [R=301,L]
+
